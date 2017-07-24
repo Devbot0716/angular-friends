@@ -281,7 +281,7 @@ When doing this you can walk down objects using dot notation.
               Location: {{friend.location.city}}, {{friend.location.state}}, {{friend.location.country}},
           </div>
           <div class="status">
-              Status: {{friend.status.message}}
+              Status: {{friend.status}}<!--this had friend.status.message in it originally. not sure if this needed the .message to show the status' for each profile-->
           </div>
           <div class="num-friends">
               Friends: {{friend.friend_count}}
